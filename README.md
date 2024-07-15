@@ -38,4 +38,4 @@ I had so many ideas while building this application, that I would love to implem
 - **Race between 2 players and provide a leaderboard**: Unfortunately, I didn't have time for this.
 
 ### Time spent
-3 working days
+2.5 working days
