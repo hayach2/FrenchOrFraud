@@ -6,22 +6,25 @@ cd /backend
 npm install
 ```
 
-#### Step 2: Create your own .env file. An example .env.example file is provided for you to complete. 
+#### Step 2: Create your own .env file
+An example .env.example file is provided for you to complete. 
+
+#### Step 3: Create a database on your local mysql.
 You need to create a database on your local mysql.
 
-#### Step 3: Migrate the database
+#### Step 4: Migrate the database
 
 ```sh
 npx sequelize-cli db:migrate
 ```
 
-#### Step 4: Run the seeder to populate the FrenchVerbs table; We only have one seeder script that is designed to populate the FrenchVerbs table with data from a text file (verbs.txt).
+#### Step 5: Run the seeder to populate the FrenchVerbs table; We only have one seeder script that is designed to populate the FrenchVerbs table with data from a text file (verbs.txt).
 
 ```sh
 npx sequelize-cli db:seed:all
 ```
 
-#### Step 5: Finally, run the backend
+#### Step 6: Finally, run the backend
 
 ```sh
 npm start
