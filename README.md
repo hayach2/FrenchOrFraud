@@ -6,9 +6,11 @@ This repository contains three main folders:
  
 !! **Make sure to read the README.md files in each of the main folders of this repository**!!:
 1. README.md (this one)
-2. frontend/README.md
 2. backend/README.md
-3. translator_api/README.md
+3. frontend/README.md
+4. translator_api/README.md
+
+After completing the three READMEs for (1. Backend, 2. Frontend, 3. Translator_API), you're supposed to have three terminals for each environment running at the same time for the game to run properly.
 
 ### Instructions to install & setup your project
 In each main file (frontend, backend, translator_api) there's a README.md file that explains the steps of installing each environment.

@@ -12,7 +12,9 @@ Run the frontend
 npm start
 ```
 
-The frontend runs on port 3000
+The frontend runs on port 3000.
+
+Now keep your terminal running and open new terminals for the last folder: translator_api. (Assuming you already have a terminal running for the backend.)
 
 ### What is in the frontend?
 The frontend of the project is developed using React and Tailwind CSS for styling.

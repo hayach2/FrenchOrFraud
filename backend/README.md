@@ -1,32 +1,34 @@
 ### Installation guide for the backend
-Install the dependencies
+#### Step 1: Install the dependencies
 
 ```sh
 cd /backend
 npm install
 ```
 
-Migrate the database
+#### Step 2: Create your own .env file. An example .env.example file is provided for you to complete. 
+You need to create a database on your local mysql.
+
+#### Step 3: Migrate the database
 
 ```sh
 npx sequelize-cli db:migrate
 ```
 
-Run the seeder to populate the FrenchVerbs table; We only have one seeder script that is designed to populate the FrenchVerbs table with data from a text file (verbs.txt).
+#### Step 4: Run the seeder to populate the FrenchVerbs table; We only have one seeder script that is designed to populate the FrenchVerbs table with data from a text file (verbs.txt).
 
 ```sh
 npx sequelize-cli db:seed:all
 ```
 
-Finally, run the backend
+#### Step 5: Finally, run the backend
 
 ```sh
 npm start
 ```
 The backend runs on port 8000
 
-Make sure you create your own .env file. An example .env.example file is provided for you to complete. 
-You need to create a database on your local mysql.
+Now keep your terminal running and open new terminals for the other two folders (frontend, and translator_api)
 
 ### What is in the backend?
 #### Migrations:
