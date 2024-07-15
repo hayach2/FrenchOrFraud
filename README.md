@@ -36,3 +36,6 @@ I had so many ideas while building this application, that I would love to implem
 - **Handle Multi-Word Translations**: Some translations contain spaces. It would be helpful to replace spaces actual spaces in the input field to indicate that the translated word comprises multiple words, providing better guidance to the user.
 - **Support of many languages**: The translator API supports the translation from and to any language in the world! We can give the user the option to choose any language they want in the beginning, in case they're not familiar with English so they might want to translate from French to German (for example).
 - **Race between 2 players and provide a leaderboard**: Unfortunately, I didn't have time for this.
+
+### Time spent
+3 working days
