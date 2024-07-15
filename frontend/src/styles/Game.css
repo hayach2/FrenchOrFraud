@@ -1,0 +1,39 @@
+.game {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  color: dodgerblue;
+}
+
+.floating-point {
+  position: absolute;
+  animation: floatUp 1s ease-out forwards;
+  font-size: 3em;
+}
+
+@keyframes floatUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+
+.positive-grade {
+  color: #228B22
+}
+
+.negative-grade {
+  color: #A52A2A
+}
