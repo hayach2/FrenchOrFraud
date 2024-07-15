@@ -42,6 +42,9 @@ The core of our application is the game itself, designed to be minimal yet infor
 
 When the user guesses correctly, a green "+1" floats on the screen, and the overall score in the top right corner increments by one. Conversely, an incorrect guess results in a red "-1" and a corresponding score decrement.
 
+If the player guesses correctly, a hard word will be displayed next. Otherwise, an easy word will be displayed next. 
+Note that a word is never repeated in the same game.
+
 At the end of the game, if the player wins, confetti celebrates their victory with the message "You won!". If they lose, no confetti appears, and the message "You have lost :(" is displayed.
 
 
